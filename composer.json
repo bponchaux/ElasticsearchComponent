@@ -1,5 +1,5 @@
 {
-    "name": "biig/elasticsearch",
+    "name": "bponchaux/elasticsearch",
     "description": "Simple tools to interact with you elasticsearch infrastructure.",
     "type": "library",
     "autoload": {
