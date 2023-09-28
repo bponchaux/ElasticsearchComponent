@@ -55,7 +55,7 @@ class ElasticsearchExtension extends Extension
     private function setMappingFolders(ContainerBuilder $container, $folders)
     {
         $builderDef = $container->getDefinition(IndexBuilder::class);
-        $defaultFolder = $container->getParameter('kernel.project_dir') . '/../config/elasticsearch';
+        $defaultFolder = $container->getParameter('kernel.project_dir') . '/config/elasticsearch';
 
         if (empty($folders)) {
             if (!is_dir($defaultFolder)) {
